@@ -1,0 +1,4 @@
+Q2.Display employees’ names earning more than Rs. 2,000. Label column name as Employee.
+SELECT ename AS "Employee"  
+FROM emp  
+WHERE sal > 2000; 
