@@ -1,1 +1,4 @@
-
+-- 1. List the department numbers and the number of employees in each department. 
+select deptno as "Depertment Number",count(*) as "Number of Employees"
+from EMP_56
+group by deptno;
